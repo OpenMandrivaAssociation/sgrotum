@@ -14,7 +14,6 @@ License:        GPL
 Group:          %section
 URL:            http://homepages.ihug.co.nz/~trmusson/programs.html
 Source0:        %name-%version.tar.bz2
-BuildRoot:      %_tmppath/%name-buildroot
 Buildrequires:  glib2-devel
 
 %description
