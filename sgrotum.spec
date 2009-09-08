@@ -1,6 +1,6 @@
 %define name    sgrotum
 %define version 2.0.0
-%define release %mkrel 5
+%define release %mkrel 6
 
 %define section Networking/Mail
 %define title   Sgrotum
