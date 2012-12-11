@@ -57,3 +57,38 @@ rm -rf %buildroot
 %doc AUTHORS COPYING README ChangeLog examples
 %_mandir/man1/%name.1.*
 
+
+
+%changelog
+* Tue Sep 08 2009 Thierry Vignaud <tvignaud@mandriva.com> 2.0.0-6mdv2010.0
++ Revision: 433731
+- rebuild
+
+* Sat Aug 02 2008 Thierry Vignaud <tvignaud@mandriva.com> 2.0.0-5mdv2009.0
++ Revision: 260647
+- rebuild
+
+* Tue Jul 29 2008 Thierry Vignaud <tvignaud@mandriva.com> 2.0.0-4mdv2009.0
++ Revision: 252367
+- rebuild
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Mon Dec 17 2007 Thierry Vignaud <tvignaud@mandriva.com> 2.0.0-2mdv2008.1
++ Revision: 127214
+- kill re-definition of %%buildroot on Pixel's request
+- import sgrotum
+
+
+* Mon Jan 02 2006 Lenny Cartier <lenny@mandriva.com> 2.0.0-2mdk
+- rebuild
+
+* Fri Oct 15 2004 Lenny Cartier <lenny@mandrakesoft.com> 2.0.0-1mdk
+- 2.0.0
+
+* Fri Sep 12 2003 Han Boetes <han@linux-mandrake.com> 1.2.6-1mdk
+- Initial release for mandrake. Perhaps it will even make it in 9.2
+  cooker? :)
+
+
