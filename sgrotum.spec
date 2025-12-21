@@ -15,6 +15,11 @@ Group:          %section
 URL:            https://homepages.ihug.co.nz/~trmusson/programs.html
 Source0:        %name-%version.tar.bz2
 BuildRoot:      %_tmppath/%name-buildroot
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 Buildrequires:  glib2-devel
 
 %description
